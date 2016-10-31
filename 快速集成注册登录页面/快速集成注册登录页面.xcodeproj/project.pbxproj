@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DB712EC708BB6CF2EE579CC /* libPods-快速集成注册登录页面.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD7A0A67E61842493F6A9C5 /* libPods-快速集成注册登录页面.a */; };
+		7EA9B0741DC7221C004F2392 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9B0731DC7221C004F2392 /* main.m */; };
+		7EA9B0771DC7221C004F2392 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9B0761DC7221C004F2392 /* AppDelegate.m */; };
+		7EA9B07A1DC7221C004F2392 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9B0791DC7221C004F2392 /* ViewController.m */; };
+		7EA9B07D1DC7221C004F2392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA9B07B1DC7221C004F2392 /* Main.storyboard */; };
+		7EA9B07F1DC7221C004F2392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EA9B07E1DC7221C004F2392 /* Assets.xcassets */; };
+		7EA9B0821DC7221C004F2392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA9B0801DC7221C004F2392 /* LaunchScreen.storyboard */; };
+		7EA9B08C1DC72257004F2392 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9B08B1DC72257004F2392 /* LoginViewController.m */; };
+		7EA9B0901DC72273004F2392 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9B08E1DC72273004F2392 /* RootViewController.m */; };
+		7EA9B0911DC72273004F2392 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EA9B08F1DC72273004F2392 /* RootViewController.xib */; };
+		7EA9B0B11DC72667004F2392 /* MyLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9B0B01DC72667004F2392 /* MyLib.m */; };
+		7EA9B0C31DC726A1004F2392 /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9B0B51DC726A1004F2392 /* Toast.m */; };
+		7EA9B0C41DC726A1004F2392 /* WPAttributedStyleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9B0B91DC726A1004F2392 /* WPAttributedStyleAction.m */; };
+		7EA9B0C51DC726A1004F2392 /* WPHotspotLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9B0BB1DC726A1004F2392 /* WPHotspotLabel.m */; };
+		7EA9B0C61DC726A1004F2392 /* WPTappableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9B0BD1DC726A1004F2392 /* WPTappableLabel.m */; };
+		7EA9B0C71DC726A1004F2392 /* NSMutableString+TagReplace.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9B0C01DC726A1004F2392 /* NSMutableString+TagReplace.m */; };
+		7EA9B0C81DC726A1004F2392 /* NSString+WPAttributedMarkup.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9B0C21DC726A1004F2392 /* NSString+WPAttributedMarkup.m */; };
+		7EA9B0CC1DC7276E004F2392 /* RemarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA9B0CA1DC7276E004F2392 /* RemarkViewController.m */; };
+		7EA9B0CD1DC7276E004F2392 /* RemarkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EA9B0CB1DC7276E004F2392 /* RemarkViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1594F88F786EB9DCE4B3B436 /* Pods-快速集成注册登录页面.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-快速集成注册登录页面.debug.xcconfig"; path = "Pods/Target Support Files/Pods-快速集成注册登录页面/Pods-快速集成注册登录页面.debug.xcconfig"; sourceTree = "<group>"; };
+		7EA9B06F1DC7221C004F2392 /* 快速集成注册登录页面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "快速集成注册登录页面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA9B0731DC7221C004F2392 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EA9B0751DC7221C004F2392 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7EA9B0761DC7221C004F2392 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7EA9B0781DC7221C004F2392 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7EA9B0791DC7221C004F2392 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7EA9B07C1DC7221C004F2392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EA9B07E1DC7221C004F2392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EA9B0811DC7221C004F2392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EA9B0831DC7221C004F2392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EA9B08A1DC72257004F2392 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		7EA9B08B1DC72257004F2392 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		7EA9B08D1DC72273004F2392 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7EA9B08E1DC72273004F2392 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		7EA9B08F1DC72273004F2392 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		7EA9B0AE1DC725F5004F2392 /* General.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = General.h; sourceTree = "<group>"; };
+		7EA9B0AF1DC72667004F2392 /* MyLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLib.h; sourceTree = "<group>"; };
+		7EA9B0B01DC72667004F2392 /* MyLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLib.m; sourceTree = "<group>"; };
+		7EA9B0B41DC726A1004F2392 /* Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toast.h; sourceTree = "<group>"; };
+		7EA9B0B51DC726A1004F2392 /* Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toast.m; sourceTree = "<group>"; };
+		7EA9B0B81DC726A1004F2392 /* WPAttributedStyleAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAttributedStyleAction.h; sourceTree = "<group>"; };
+		7EA9B0B91DC726A1004F2392 /* WPAttributedStyleAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAttributedStyleAction.m; sourceTree = "<group>"; };
+		7EA9B0BA1DC726A1004F2392 /* WPHotspotLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPHotspotLabel.h; sourceTree = "<group>"; };
+		7EA9B0BB1DC726A1004F2392 /* WPHotspotLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPHotspotLabel.m; sourceTree = "<group>"; };
+		7EA9B0BC1DC726A1004F2392 /* WPTappableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTappableLabel.h; sourceTree = "<group>"; };
+		7EA9B0BD1DC726A1004F2392 /* WPTappableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTappableLabel.m; sourceTree = "<group>"; };
+		7EA9B0BF1DC726A1004F2392 /* NSMutableString+TagReplace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+TagReplace.h"; sourceTree = "<group>"; };
+		7EA9B0C01DC726A1004F2392 /* NSMutableString+TagReplace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+TagReplace.m"; sourceTree = "<group>"; };
+		7EA9B0C11DC726A1004F2392 /* NSString+WPAttributedMarkup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WPAttributedMarkup.h"; sourceTree = "<group>"; };
+		7EA9B0C21DC726A1004F2392 /* NSString+WPAttributedMarkup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WPAttributedMarkup.m"; sourceTree = "<group>"; };
+		7EA9B0C91DC7276D004F2392 /* RemarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemarkViewController.h; sourceTree = "<group>"; };
+		7EA9B0CA1DC7276E004F2392 /* RemarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemarkViewController.m; sourceTree = "<group>"; };
+		7EA9B0CB1DC7276E004F2392 /* RemarkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RemarkViewController.xib; sourceTree = "<group>"; };
+		8DD7A0A67E61842493F6A9C5 /* libPods-快速集成注册登录页面.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-快速集成注册登录页面.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3844F8F031C8E58403A0DA9 /* Pods-快速集成注册登录页面.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-快速集成注册登录页面.release.xcconfig"; path = "Pods/Target Support Files/Pods-快速集成注册登录页面/Pods-快速集成注册登录页面.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EA9B06C1DC7221C004F2392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB712EC708BB6CF2EE579CC /* libPods-快速集成注册登录页面.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EA9B0661DC7221C004F2392 = {
+			isa = PBXGroup;
+			children = (
+				7EA9B0711DC7221C004F2392 /* 快速集成注册登录页面 */,
+				7EA9B0701DC7221C004F2392 /* Products */,
+				8E4E2BF3CD7189F03D789E24 /* Pods */,
+				85932C9B9F9BE18631F36090 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7EA9B0701DC7221C004F2392 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EA9B06F1DC7221C004F2392 /* 快速集成注册登录页面.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EA9B0711DC7221C004F2392 /* 快速集成注册登录页面 */ = {
+			isa = PBXGroup;
+			children = (
+				7EA9B0751DC7221C004F2392 /* AppDelegate.h */,
+				7EA9B0761DC7221C004F2392 /* AppDelegate.m */,
+				7EA9B0781DC7221C004F2392 /* ViewController.h */,
+				7EA9B0791DC7221C004F2392 /* ViewController.m */,
+				7EA9B08D1DC72273004F2392 /* RootViewController.h */,
+				7EA9B08E1DC72273004F2392 /* RootViewController.m */,
+				7EA9B08F1DC72273004F2392 /* RootViewController.xib */,
+				7EA9B0891DC72257004F2392 /* Login */,
+				7EA9B07B1DC7221C004F2392 /* Main.storyboard */,
+				7EA9B07E1DC7221C004F2392 /* Assets.xcassets */,
+				7EA9B0801DC7221C004F2392 /* LaunchScreen.storyboard */,
+				7EA9B0831DC7221C004F2392 /* Info.plist */,
+				7EA9B0721DC7221C004F2392 /* Supporting Files */,
+			);
+			path = "快速集成注册登录页面";
+			sourceTree = "<group>";
+		};
+		7EA9B0721DC7221C004F2392 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EA9B0731DC7221C004F2392 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EA9B0891DC72257004F2392 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7EA9B0B21DC726A1004F2392 /* Toast */,
+				7EA9B0B61DC726A1004F2392 /* WPAttributedUILabel */,
+				7EA9B0AE1DC725F5004F2392 /* General.h */,
+				7EA9B0AF1DC72667004F2392 /* MyLib.h */,
+				7EA9B0B01DC72667004F2392 /* MyLib.m */,
+				7EA9B08A1DC72257004F2392 /* LoginViewController.h */,
+				7EA9B08B1DC72257004F2392 /* LoginViewController.m */,
+				7EA9B0C91DC7276D004F2392 /* RemarkViewController.h */,
+				7EA9B0CA1DC7276E004F2392 /* RemarkViewController.m */,
+				7EA9B0CB1DC7276E004F2392 /* RemarkViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7EA9B0B21DC726A1004F2392 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				7EA9B0B31DC726A1004F2392 /* Classes */,
+				7EA9B0B41DC726A1004F2392 /* Toast.h */,
+				7EA9B0B51DC726A1004F2392 /* Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		7EA9B0B31DC726A1004F2392 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7EA9B0B61DC726A1004F2392 /* WPAttributedUILabel */ = {
+			isa = PBXGroup;
+			children = (
+				7EA9B0B71DC726A1004F2392 /* Extras */,
+				7EA9B0BE1DC726A1004F2392 /* WPAttributedMarkup */,
+			);
+			path = WPAttributedUILabel;
+			sourceTree = "<group>";
+		};
+		7EA9B0B71DC726A1004F2392 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				7EA9B0B81DC726A1004F2392 /* WPAttributedStyleAction.h */,
+				7EA9B0B91DC726A1004F2392 /* WPAttributedStyleAction.m */,
+				7EA9B0BA1DC726A1004F2392 /* WPHotspotLabel.h */,
+				7EA9B0BB1DC726A1004F2392 /* WPHotspotLabel.m */,
+				7EA9B0BC1DC726A1004F2392 /* WPTappableLabel.h */,
+				7EA9B0BD1DC726A1004F2392 /* WPTappableLabel.m */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		7EA9B0BE1DC726A1004F2392 /* WPAttributedMarkup */ = {
+			isa = PBXGroup;
+			children = (
+				7EA9B0BF1DC726A1004F2392 /* NSMutableString+TagReplace.h */,
+				7EA9B0C01DC726A1004F2392 /* NSMutableString+TagReplace.m */,
+				7EA9B0C11DC726A1004F2392 /* NSString+WPAttributedMarkup.h */,
+				7EA9B0C21DC726A1004F2392 /* NSString+WPAttributedMarkup.m */,
+			);
+			path = WPAttributedMarkup;
+			sourceTree = "<group>";
+		};
+		85932C9B9F9BE18631F36090 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DD7A0A67E61842493F6A9C5 /* libPods-快速集成注册登录页面.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E4E2BF3CD7189F03D789E24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1594F88F786EB9DCE4B3B436 /* Pods-快速集成注册登录页面.debug.xcconfig */,
+				E3844F8F031C8E58403A0DA9 /* Pods-快速集成注册登录页面.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EA9B06E1DC7221C004F2392 /* 快速集成注册登录页面 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EA9B0861DC7221C004F2392 /* Build configuration list for PBXNativeTarget "快速集成注册登录页面" */;
+			buildPhases = (
+				7F842FC6587D7CAA192A5DAF /* [CP] Check Pods Manifest.lock */,
+				7EA9B06B1DC7221C004F2392 /* Sources */,
+				7EA9B06C1DC7221C004F2392 /* Frameworks */,
+				7EA9B06D1DC7221C004F2392 /* Resources */,
+				0A536487197E913D9604FD21 /* [CP] Embed Pods Frameworks */,
+				E2F40D1D1CCC4138A489307D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "快速集成注册登录页面";
+			productName = "快速集成注册登录页面";
+			productReference = 7EA9B06F1DC7221C004F2392 /* 快速集成注册登录页面.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EA9B0671DC7221C004F2392 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = danggui;
+				TargetAttributes = {
+					7EA9B06E1DC7221C004F2392 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7EA9B06A1DC7221C004F2392 /* Build configuration list for PBXProject "快速集成注册登录页面" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EA9B0661DC7221C004F2392;
+			productRefGroup = 7EA9B0701DC7221C004F2392 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EA9B06E1DC7221C004F2392 /* 快速集成注册登录页面 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EA9B06D1DC7221C004F2392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA9B0821DC7221C004F2392 /* LaunchScreen.storyboard in Resources */,
+				7EA9B0CD1DC7276E004F2392 /* RemarkViewController.xib in Resources */,
+				7EA9B07F1DC7221C004F2392 /* Assets.xcassets in Resources */,
+				7EA9B0911DC72273004F2392 /* RootViewController.xib in Resources */,
+				7EA9B07D1DC7221C004F2392 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A536487197E913D9604FD21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-快速集成注册登录页面/Pods-快速集成注册登录页面-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F842FC6587D7CAA192A5DAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2F40D1D1CCC4138A489307D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-快速集成注册登录页面/Pods-快速集成注册登录页面-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EA9B06B1DC7221C004F2392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA9B08C1DC72257004F2392 /* LoginViewController.m in Sources */,
+				7EA9B07A1DC7221C004F2392 /* ViewController.m in Sources */,
+				7EA9B0C71DC726A1004F2392 /* NSMutableString+TagReplace.m in Sources */,
+				7EA9B0C51DC726A1004F2392 /* WPHotspotLabel.m in Sources */,
+				7EA9B0C41DC726A1004F2392 /* WPAttributedStyleAction.m in Sources */,
+				7EA9B0771DC7221C004F2392 /* AppDelegate.m in Sources */,
+				7EA9B0C81DC726A1004F2392 /* NSString+WPAttributedMarkup.m in Sources */,
+				7EA9B0B11DC72667004F2392 /* MyLib.m in Sources */,
+				7EA9B0C61DC726A1004F2392 /* WPTappableLabel.m in Sources */,
+				7EA9B0741DC7221C004F2392 /* main.m in Sources */,
+				7EA9B0C31DC726A1004F2392 /* Toast.m in Sources */,
+				7EA9B0CC1DC7276E004F2392 /* RemarkViewController.m in Sources */,
+				7EA9B0901DC72273004F2392 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EA9B07B1DC7221C004F2392 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA9B07C1DC7221C004F2392 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EA9B0801DC7221C004F2392 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA9B0811DC7221C004F2392 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EA9B0841DC7221C004F2392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EA9B0851DC7221C004F2392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EA9B0871DC7221C004F2392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1594F88F786EB9DCE4B3B436 /* Pods-快速集成注册登录页面.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "快速集成注册登录页面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1kf.1kf.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7EA9B0881DC7221C004F2392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3844F8F031C8E58403A0DA9 /* Pods-快速集成注册登录页面.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "快速集成注册登录页面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1kf.1kf.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EA9B06A1DC7221C004F2392 /* Build configuration list for PBXProject "快速集成注册登录页面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA9B0841DC7221C004F2392 /* Debug */,
+				7EA9B0851DC7221C004F2392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EA9B0861DC7221C004F2392 /* Build configuration list for PBXNativeTarget "快速集成注册登录页面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA9B0871DC7221C004F2392 /* Debug */,
+				7EA9B0881DC7221C004F2392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EA9B0671DC7221C004F2392 /* Project object */;
+}

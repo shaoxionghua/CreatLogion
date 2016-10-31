@@ -1,0 +1,31 @@
+platform :ios, '8.0' 			#手机的系统
+target “快速集成注册登录页面” do
+
+#pod 'libWeChatSDK'              #微信支付SDK
+#pod 'AliPay', '~> 2.1.2'		#支付宝SDK
+#pod 'libXG-SDK'                 #信鸽推送
+#pod 'SDWebImage'                #SDWebImage
+#pod 'MJRefresh'                 #下拉上拉刷新
+pod 'SDAutoLayout'              #自动布局
+#pod 'AFNetworking'              #网络交互AFNetworking
+pod 'SVProgressHUD'
+pod 'MJExtension'
+pod 'IQKeyboardManager'
+pod 'Bugly'
+pod 'STPopup'
+#pod 'AMapLocation'              #定位 SDK
+#pod 'Realm'
+#pod 'CWPopup'                  #弹出视图
+#pod 'SVProgressHUD'			#加载等待框
+
+
+
+
+
+
+#post_install do | installer |
+#    installer.project.build_configurations.each do |config|
+#        config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+#    end
+#end
+end

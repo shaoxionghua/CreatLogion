@@ -1,0 +1,27 @@
+PODS:
+  - Bugly (2.3.1)
+  - IQKeyboardManager (4.0.4)
+  - MJExtension (3.0.13)
+  - SDAutoLayout (2.1.7)
+  - STPopup (1.7.1)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - Bugly
+  - IQKeyboardManager
+  - MJExtension
+  - SDAutoLayout
+  - STPopup
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Bugly: c8ece2fa5bdcb404abdd0e07131e8129f580d893
+  IQKeyboardManager: 4a6f83b540283c2645aaeba2bd8dc0f09b5c77f8
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  SDAutoLayout: e9b36d04b8c0b504762a04d76fbbe5108944297a
+  STPopup: 7d9ea4759e4323141a4d5c259e547df2734427af
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+PODFILE CHECKSUM: a36566650a06606aa1e73c378e3287ecdeaa10b3
+
+COCOAPODS: 1.0.1
